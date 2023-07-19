@@ -1,0 +1,24 @@
+package com.model;
+
+public class CoffeeDTO {
+	private String menuNm;
+	private int price;
+	private String size;
+	public String getMenuNm() {
+		return menuNm;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public String getSize() {
+		return size;
+	}
+	public CoffeeDTO(String menuNm, int price, String size) {
+		super();
+		this.menuNm = menuNm;
+		this.price = price;
+		this.size = size;
+	}
+	
+	
+}

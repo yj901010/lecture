@@ -1,0 +1,9 @@
+package com.model;
+
+public class CoffeeDTO {
+	private String menuNm;
+	private int price;
+	private String size;
+	
+	
+}

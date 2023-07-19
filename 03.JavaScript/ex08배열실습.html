@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let fruits = ["apple", "avocado", "banana", "blueberry", "cherry", "dragon fruit", "fig", "grape", "kiwi", "lime",
+                    "mango", "orange", "oriental melon", "pear", "peach", "pineapple", "shine muscat", "strawberry", "tomato",
+                    "water melon", "yuja"]; 
+        
+        fruits.pop();
+        
+        // push()는 한 개 이상의 데이터를 추가할 수 있다.
+        fruits.push("grapefruit");
+        fruits.push("cherry tomato", "pine nut", "korean blackberry");
+        let isCheck = fruits.includes("orange");
+        let isCheck2 = fruits.includes("kiwi");
+
+
+        console.log("orange가 있는가? ", isCheck);
+        console.log("kiwi가 있는가? ", isCheck2);
+
+        fruits[fruits.indexOf("water melon")] = "melon";
+        
+        fruits.splice(fruits.indexOf("lime"),3);
+        
+        fruits.splice(fruits.indexOf("shine muscat"));
+        
+        let new_fruits = fruits.slice(fruits.indexOf("pear"),fruits.indexOf("pineapple")+1);
+        console.log(fruits);
+        console.log(new_fruits);
+
+
+    </script>
+</body>
+</html>

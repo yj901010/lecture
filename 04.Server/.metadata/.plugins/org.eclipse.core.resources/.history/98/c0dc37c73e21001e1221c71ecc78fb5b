@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		data를 전송하기 위한 방법은 총 2가지가 존재한다.
+		Do Get방식, Do Post방식
+	 -->
+	 
+	 <!-- Get방식으로 데이터 전달하기 -->
+	 <fieldset>
+	 	<legend>Get방식</legend>
+	 	<form action="">
+	 		form#action
+	 	</form>
+	 </fieldset>
+	
+</body>
+</html>

@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		int c = Integer.parseInt(request.getParameter("c"));
+		int r = Integer.parseInt(request.getParameter("r"));
+	%>
+	<table border="1">
+		<%
+			out.print(c +"층\n" );
+			out.print(r +"방");
+			for(int i=1;i<=c;i++){
+				out.print("<tr>");
+				for(int j=1;j<=r;j++){
+					out.print("<td>"+j+"</td>");
+				}
+				out.print("</tr>");
+			}
+		%>
+	
+	</table>
+</body>
+</html>

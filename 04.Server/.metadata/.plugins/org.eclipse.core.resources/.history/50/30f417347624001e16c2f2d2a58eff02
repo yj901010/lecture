@@ -1,0 +1,53 @@
+<%@page import="org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		String name = request.getParameter("name");
+		int java = Integer.parseInt(request.getParameter("java"));
+		int web = Integer.parseInt(request.getParameter("web"));
+		int iot = Integer.parseInt(request.getParameter("web"));
+		int android = Integer.parseInt(request.getParameter("android"));
+		
+	%>
+	<fieldset>
+			<legend>학점확인프로그램</legend>
+			<table style="margin: auto; text-align: center;">
+				<tr>
+					<td>이름</td>
+					<td><%= name %></td>
+				</tr>
+				<tr>
+					<td>JAVA점수</td>
+					<td><%= java %></td>
+				</tr>
+				<tr>
+					<td>WEB점수</td>
+					<td><%= web %></td>
+				</tr>
+				<tr>
+					<td>IOT점수</td>
+					<td><%= iot %></td>
+				</tr>
+				<tr>
+					<td>ANDROID점수</td>
+					<td><%= android %></td>
+				</tr>
+				<tr>
+					<td>평균</td>
+					<td><%= (java+web+iot+android)/4 %></td>
+				</tr>
+				<tr>
+					<td>학점</td>
+					<td><%=  %></td>
+				</tr>
+			</table>
+	</fieldset>
+</body>
+</html>

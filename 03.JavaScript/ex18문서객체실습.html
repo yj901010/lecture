@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        💕<span id="like">0</span>
+    </div>
+    <button onclick="like()">좋아요</button>
+    <button onclick="hate()">싫어요</button>
+
+    <script>
+        // 실습문제) 버튼을 눌렀을 때 숫자가 변경되는 함수를 구현하시오.
+        // 1) 좋아요버튼 : 숫자가 1씩 증가
+        // 2) 싫어요버튼 : 숫자가 1씩 감소
+        
+        // 1.버튼을 클릭한다.
+        // 2.숫자가 증가된다.
+        //  - id가 'like'인 HTML객체에 접근
+        //  - 버튼을 클릭했을 때 동작하는 함수를 생성
+        //  - innerText를 활용해서 증가된 숫자를 출력
+        let like = function(){
+            const like = document.getElementById("like");
+            like.innerText = parseInt(like.innerText) + 1;
+        }
+
+        let hate = function(){
+            const hate = document.getElementById("like");
+            hate.innerText = parseInt(hate.innerText) - 1;
+        }
+
+    </script>
+</body>
+</html>
