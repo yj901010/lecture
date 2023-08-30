@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	.navbar {
+		background: black;
+		position: absolute; top:0; left: 0;
+		width: 100%;
+		display: flex;
+	}
+	.navbar_wrapper {
+		display: flex;
+	}
+	.navbar_wrapper a {
+		color: #999C9F;
+		text-decoration: none;
+		padding-top: 10px;
+		margin-right: 20px;
+		font-size: 14px;
+		white-space: nowrap;
+	}
+	a:hover{
+		color: #D9E8ED;
+		cursor: pointer;
+	}
+	a:active {
+		font-weight: bold;
+		color: #D9E8ED;
+	}
+	.search {
+		padding: 3px;
+		margin-top: 3px;
+	}
+	.search-container {
+	    display: flex;
+	    align-items: center;
+	    background-color: #10161D;
+	    width: 300px;
+	    display: flex;
+	    padding-left: 10px;
+	    border-radius: 5px;
+	}
+	.search-icon {
+	    margin-right: 10px;
+	    color: #999C9F;
+	}
+	
+	input[type="text"] {
+	    border: none;
+	    background-color: #10161D;
+	    width: 100%;
+	    font-size: 12px;
+	    padding: 8px;
+	    color: white;
+	}
+	.logo{
+		padding: 3px;
+		margin-top: 2px;
+	}
+	
+	/* 반응형 스타일 */
+        @media screen and (max-width: 768px) {
+            .navbar_wrapper {
+                width: 100%;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            .navbar_search {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar_icon {
+                display: none;
+            }
+            
+            .navbar_wrapper {
+            	margin-left: 10px;
+            }
+            
+            .navbar_wrapper a {
+            	margin-right: 10px;
+            }
+        }
+</style>
+</head>
+<body>
+	<div> <!-- 전체 열음 -->
+		<div> <!-- 여백 -->
+			<div class="navbar"> <!-- 네비게이션 염 -->
+				<div class="navbar_logo"> <!-- 로고 염 -->
+					<a href="#">
+					<img class="logo" src="img/logo.png" width="90px" height="30px">
+					</a>
+				</div> <!-- 로고 닫음 -->
+				<div class="navbar_wrapper"> <!-- 상단 본문 염-->
+					<a href="#" class="navbar_btn_home">홈</a>
+					<a href="#" class="navbar_btn_">커뮤니티</a>
+					<a href="#" class="navbar_btn_">더치페이</a>
+					<a href="#" class="navbar_btn_">고객센터</a>
+					<div class="navbar_search"> <!-- 검색 창 -->
+						<div class="search"> <!-- 검색창 패딩 -->
+							<div class="search-container"> <!-- 아이콘, 인풋 열기 -->
+						        <i class="fas fa-search search-icon"></i>
+						        <input type="text" id="searchInput" placeholder="영화 또는 TV프로그램 검색">
+						    </div> <!--  아이콘, 인풋 닫기 -->
+						</div> <!-- 검색 창 패딩 닫음 -->
+					</div> <!-- 검색 창 닫기 -->
+				</div> <!-- 상단 본문 닫기 -->
+			</div> <!-- 네비게이션 닫음 -->
+		</div> <!-- 여백 닫음 -->
+	</div> <!-- 전체 닫음 -->
+</body>
+</html>

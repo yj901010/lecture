@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<!-- 
+		폴더 내 HTML파일에서 서블릿으로 요청을 보낼 때 '../URLMapping값'으로 정의
+	 -->
+	<form action="..\LoginService" method="post">
+		<table>
+			<tr>
+				<td><input type="text" placeholder="아이디를 입력하시오" name="id"></td>
+			</tr>
+			<tr>
+				<td><input type="password" placeholder="비밀번호를 입력하시오" name="pw"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="LOGIN"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
