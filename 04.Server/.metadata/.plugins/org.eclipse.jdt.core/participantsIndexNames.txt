@@ -33,6 +33,8 @@ C:\Users\gjaischool1\Desktop\WebStudy\04.Server\.metadata\.plugins\org.eclipse.j
 \proj_t\src\main\java
 C:\Users\gjaischool1\Desktop\WebStudy\04.Server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4023197742.index
 \MessageSystem\src
+C:\Users\gjaischool1\Desktop\WebStudy\04.Server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2790965995.index
+\EL_JSTL\src\main\java
 C:\Users\gjaischool1\Desktop\WebStudy\04.Server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3878998920.index
 \MemberSystem_MVC2\src\main\java
 C:\Users\gjaischool1\Desktop\WebStudy\04.Server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2532133190.index
