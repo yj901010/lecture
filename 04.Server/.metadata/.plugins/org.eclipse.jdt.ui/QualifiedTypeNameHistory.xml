@@ -36,4 +36,19 @@
     <fullyQualifiedTypeName name="com.google.gson.JsonSerializationContext"/>
     <fullyQualifiedTypeName name="com.google.gson.GsonBuilder"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="com.front.FrontController"/>
+    <fullyQualifiedTypeName name="com.controller.JoinService"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.controller.LoginService"/>
+    <fullyQualifiedTypeName name="com.controller.LogoutService"/>
+    <fullyQualifiedTypeName name="com.controller.UpdateService"/>
+    <fullyQualifiedTypeName name="com.controller.MsgSendService"/>
+    <fullyQualifiedTypeName name="com.controller.MsgAllDeleteService"/>
+    <fullyQualifiedTypeName name="com.controller.MsgDeleteService"/>
+    <fullyQualifiedTypeName name="com.front.ICommand"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
