@@ -6,95 +6,73 @@
     <title>Document</title>
 </head>
 <body>
-    <table width="400px">
+<table>
+    <tr >
+        <td colspan="2" bgcolor = "gray" width="400px" height="50px" >Step1 : 아이디/비번 입력</td>
+    </tr>
+    <tr>
+        <td style="text-align: right;" bgcolor = "whitesmoke" height="35px">아이디 :</td>
+        <td bgcolor = "whitesmoke" height="35px"><input type="text"></td>
+    </tr>
+    <tr>
+        <td style="text-align: right;" bgcolor = "whitesmoke" height="35px">비밀번호 :</td>
+        <td bgcolor = "whitesmoke" height="35px"><input type="password"></td>
+    </tr>
+    <tr>
+        <td style="text-align: right;" bgcolor = "whitesmoke" height="35px" >비밀번호 확인 :</td>
+        <td bgcolor = "whitesmoke" height="35px"><input type="password"></td>
+    </tr>
 
-        <!-- 아이디/비번 입력-->
-        <tr>
-            <td bgcolor="gray" height="50px" colspan="2">
-                <h4>Step1 : 아이디/비번 입력</h4>
-            </td>
-        </tr>
-        <tr>
-            <td align="right" bgcolor="whitesmoke" height="35px">아이디 : </td>
-            <td align="left" bgcolor="whitesmoke" ><input type="text"></td>
-        </tr>
-        <tr>
-            <td align="right" bgcolor="whitesmoke" height="35px">비밀번호 : </td>
-            <td align="left" bgcolor="whitesmoke" ><input type="text"></td>
-        </tr>
-        <tr>
-            <td align="right" bgcolor="whitesmoke" height="35px">비밀번호 확인 : </td>
-            <td align="left" bgcolor="whitesmoke" ><input type="text"></td>
-        </tr>
+    <tr >
+        <td colspan="2" bgcolor = "gray" width="400px" height="50px" >Step2: 개인정보</td>
+    </tr>
+    <tr>
+        <td style="text-align: right;" bgcolor = "whitesmoke" height="35px">성별 :</td>
+        <td bgcolor = "whitesmoke" height="35px">
+            남<input type="radio" name="gender">
+            여<input type="radio" name="gender"> <br></td>
+    </tr>
+    <tr>
+        <td style="text-align: right;" bgcolor = "whitesmoke" height="35px">혈액형 :</td>
+        <td bgcolor = "whitesmoke" height="35px"><select>
+            <option>A형</option>
+            <option>B형</option>
+            <option>O형</option>
+            <option>AB형</option>
+        </select></td>
 
-        <!-- 개인정보-->
-        <tr>
-            <td bgcolor="gray" height="50px" colspan="2">
-                <h4>Step2 : 개인정보</h4>
-            </td>
-        </tr>
-        <tr>
-            <td align="right" bgcolor="whitesmoke" height="35px">성별 : </td>
-            <td align="left" bgcolor="whitesmoke" >
-                남<input type="radio">
-                여<input type="radio">
-            </td>
-        </tr>
-        <tr>
-            <td align="right" bgcolor="whitesmoke" height="35px">혈액형 : </td>
-            <td align="left" bgcolor="whitesmoke" >
-                <select>
-                    <option>A형</option>
-                    <option>B형</option>
-                    <option>O형</option>
-                    <option>AB형</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td align="right" bgcolor="whitesmoke" height="35px">생일 : </td>
-            <td align="left" bgcolor="whitesmoke" ><input type="date"></td>
-        </tr>
+    </tr>
+    <tr>
+        <td style="text-align: right;" bgcolor = "whitesmoke" height="35px">생일 :</td>
+        <td bgcolor = "whitesmoke" height="35px"><input type="date"></td>
+    </tr>
 
-        <!-- 선호도-->
-        <tr>
-            <td bgcolor="gray" height="50px" colspan="2">
-                <h4>Step3 : 선호도</h4>
-            </td>
-        </tr>
-        <tr>
-            <td align="right" bgcolor="whitesmoke" height="35px">취미 : </td>
-            <td align="left" bgcolor="whitesmoke" >
-                축구<input type="checkbox">
-                야구<input type="checkbox">
-                농구<input type="checkbox">
-            </td>
-        </tr>
-        <tr>
-            <td align="right" bgcolor="whitesmoke" height="35px">좋아하는 색깔 : </td>
-            <td align="left" bgcolor="whitesmoke" ><input type="color"></td>
-        </tr>
+    <tr >
+        <td colspan="2" bgcolor = "gray" width="400px" height="50px" >Step3: 선호도</td>
+    </tr>
+    <tr>
+        <td style="text-align: right;" bgcolor = "whitesmoke" height="35px">취미 :</td>
+        <td bgcolor = "whitesmoke" height="35px">
+            축구<input type="radio" name="hobby">
+            야구<input type="radio" name="hobby">
+            농구<input type="radio" name="hobby">
+            <br></td>
+    </tr>
+    <tr>
+        <td style="text-align: right;" bgcolor = "whitesmoke" height="35px">좋아하는 색깔 :</td>
+        <td bgcolor = "whitesmoke" height="35px"><input type="color"></td>
 
-        <!-- 적고 싶은 말-->
-        <tr>
-            <td bgcolor="gray" height="50px" colspan="2">
-                <h4>Step4 : 적고 싶은 말</h4>
-            </td>
-        </tr>
-        <tr>
-            <td align="center" bgcolor="whitesmoke" height="35px" colspan="2">
-                <textarea rows="8" cols="60"></textarea>                
-            </td>
-        </tr>
-        <tr>
-            <td align="center" bgcolor="whitesmoke" height="35px" colspan="2">
-                <input type="submit">         
-                <input type="reset">         
-            </td>
-        </tr>
+    </tr>
 
-
-    </table>
-    
+    <tr >
+        <td colspan="2" bgcolor = "gray" width="400px" height="50px" >Step4: 적고 싶은 말</td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor = "whitesmoke" height="35px"><textarea rows="5px" cols="55px"></textarea></td>
+    </tr>
+    <tr>
+        <td  style="text-align: center;" colspan="2" bgcolor = "whitesmoke" height="10px"><input type="submit" ><input type="submit" value="초기화" ></td>
+    </tr>
+</table>
 </body>
 </html>
